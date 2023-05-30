@@ -1,0 +1,18 @@
+@charset "UTF-8";
+body{
+    background-color: rgb(84, 18, 122);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+h1{
+    color: rgb(187, 13, 7);
+    background-color: blanchedalmond;
+    text-decoration: underline;
+}
+h2{
+    color: deeppink;
+}
+p{
+    text-align: justify;
+    text-decoration: underline;
+}
