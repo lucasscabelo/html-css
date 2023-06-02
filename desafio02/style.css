@@ -12,6 +12,7 @@ header h1{
     text-align: center;
     font-family: 'Passion One', cursive;
     font-weight: 700;
+    font-variant: small-caps;
     font-size: 115px;
     padding-bottom: 5px;
     margin-bottom: 5px;
@@ -36,7 +37,8 @@ a:hover{
 
 div{
     height: 100vh; 
-    padding-bottom: 50px;
+    padding-bottom: 10vh;
+    padding-top: 10vh;
     margin-top: 30px;
 }
 
@@ -62,14 +64,14 @@ article{
     margin: 120px -30px 0px -10px;
     background-attachment: fixed;
    padding: 30px;
-   padding-bottom: 0px;
-    
+   padding-bottom: 10vh;
+    padding-top: 10vh;
     padding-left: 25px;
 }
 article p{
     max-width: 400px;
     padding: 10px;
-    background-color: rgba(12, 12, 12, 0.763);
+    background-color: rgba(0, 0, 0, 0.215);
     max-width:550px ;
     padding-top: 30px;
     font-size: 3em;
@@ -79,7 +81,10 @@ article p{
     padding-top: 27px;
     padding-bottom: 0px;
 }
-
+aside{
+    padding-top:10vh ;
+    padding-bottom: 10vh;
+}
  aside  p{
     max-width:550px ;
     padding: 15px;
@@ -100,15 +105,15 @@ article p{
     margin: 120px -30px 0px -10px;
     background-attachment: fixed;
    padding: 30px;
-   padding-bottom: 0px;
-    
+   padding-bottom: 10vh;
+    padding-top: 10vh;
     padding-left: 25px;
 }
 
 #img p{
     max-width: 400px;
     padding: 10px;
-    background-color: rgba(12, 12, 12, 0.763);
+    background-color:rgba(0, 0, 0, 0.215);
     max-width:550px ;
     padding-top: 30px;
     font-size: 3em;
@@ -117,6 +122,10 @@ article p{
     margin: 35px 0px 0px 5px; 
     padding-top: 27px;
     padding-bottom: 0px;
+}
+section{
+    padding-bottom: 10vh;
+    padding-top: 10vh;
 }
 
 section p {
