@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 0px;
+            margin: 0px;
+        }
+
+        body{
+            margin: 10px;
+            padding: 10px;
+            margin: 0 auto;
+            align-items: center;
+        }
+        .cor, .foto, .nivel, .final{
+            padding: 10px;
+        }
+        article{
+            
+            background-color: lightslategray;
+            border-radius: 10px;
+            display: inline-block; 
+            padding: 10px;
+        }
+        .finall{
+            border-radius: 10px;
+            padding: 10px;
+        }
+       
+    </style>
+</head>
+<body>
+    <h1>Exemplo</h1>
+
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <article>
+            <div class="cor">
+                <label for="icor"> Cor:</label>
+                <input type="color" name="cor" id="icor" value="#00ff00">
+            </div>
+            
+            <div class="nivel">
+                <label for="inivel">Nível de Satisfação </label>
+                <input type="range" name="nivel" id="inivel">
+            </div>
+            <div class="foto">
+                <label for="ifoto">Foto de Perfil</label>
+                <input type="file" name="foto" id="ifoto" required>
+            </div>
+        </article>
+        
+        <div class="final">
+            <input type="submit" value="Enviar" class="finall">
+            <input type="reset" value="Limpar" class="finall">
+        </div>
+
+    </form>
+</body>
+</html>
